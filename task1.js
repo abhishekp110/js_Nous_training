@@ -13,12 +13,3 @@ const groupByAge = users.reduce((p, c) => {
 
 console.log(groupByAge)
 
-
-const isMinor = users.reduce((p, c) => {
-    if (c.age < 20) {
-        return true
-    }
-    return false;
-}, {});
-
-console.log(isMinor)
